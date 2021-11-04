@@ -40,7 +40,7 @@
           </button>
         </div>
       </li>
-      <form id="logout-button" method="POST" action="{{ route('logout') }}"> {{--この行を編集--}}
+      <form id="logout-button" method="POST" action="{{ route('logout') }}">
         @csrf
       </form>
       <!-- Dropdown -->
